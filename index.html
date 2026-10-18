@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8e8ee"><title>Jedno važno pitanje 💌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><main class="page">
+<header class="top"><div class="envelope">💌</div><p class="eyebrow" id="eyebrow"></p></header>
+<section class="hero">
+<span class="tag" id="tagline"></span>
+<h1 id="headline"></h1><p class="intro" id="intro"></p>
+<div class="button-stage" id="buttonStage"><button class="btn yes" id="yesBtn" type="button"></button><button class="btn no" id="noBtn" type="button"></button></div>
+<p class="reaction" id="reaction" aria-live="polite"></p>
+</section>
+<section class="panel hidden" id="datePanel">
+<span class="tag">DOBAR IZBOR ✨</span><h2 id="successTitle"></h2><p class="subtext" id="dateIntro"></p>
+<form id="dateForm">
+<div class="form-grid">
+<div class="field"><label for="date" id="dateLabel"></label><input id="date" name="date" type="date" required></div>
+<div class="field"><label for="time" id="timeLabel"></label><select id="time" name="time" required>
+<option value="">Odaberi vrijeme</option><option>16:00</option><option>16:30</option><option>17:00</option><option>17:30</option><option>18:00</option><option>18:30</option><option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option><option>21:00</option>
+</select></div></div>
+<div class="field"><label for="plan" id="planLabel"></label><select id="plan" name="plan"><option>Iznenadi me 😌</option><option>Kava pa šetnja ☕</option><option>Večera 🍝</option><option>Nešto slatko 🍰</option><option>Ti smisli, ja dolazim 💃</option></select></div>
+<div class="field"><label for="note" id="noteLabel"></label><textarea id="note" name="note" rows="3"></textarea></div>
+<button class="btn submit" id="confirmBtn" type="submit"></button><p class="form-status" id="formStatus" aria-live="polite"></p>
+</form><p class="tiny-note" id="whatsappHint"></p>
+</section>
+<section class="panel"><div class="section-icon">🎧</div><h2 id="musicTitle"></h2><p class="subtext" id="musicIntro"></p><div id="musicPlayer" class="music-placeholder"></div><a id="openSong" class="text-link hidden" href="#" target="_blank" rel="noopener noreferrer">Otvori pjesmu na YouTubeu ↗</a></section>
+<section class="panel"><div class="section-icon">👗</div><h2 id="outfitTitle"></h2><p class="subtext" id="outfitIntro"></p><div class="outfit-note"><strong id="outfitByline"></strong><p id="outfitText"></p></div></section>
+<footer class="closing"><p id="closingText"></p><span>♡</span></footer>
+</main><script src="settings.js"></script><script src="script.js"></script></body></html>
