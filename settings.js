@@ -9,7 +9,7 @@ window.DATE_APP_SETTINGS = {
   eyebrow: "MALA PORUKA SAMO ZA TEBE",
   tagline: "SLUŽBENI POZIV NA DEJT",
   headlineFallback: "ljepotice",
-  headlineAfter: "…<br>imaš li planove sa mnom? . Znam da nemam bas common sense i mozda ukus za zajebanciju, ali znam da svaki idući 19. u mjesecu zelim provest s tobom. ",
+  headlineAfter: "…<br>Znam da nemam bas common sense i mozda ukus za zajebanciju, ali znam da svaki idući 19. u mjesecu zelim provest s tobom. ",
   intro: "Volio bih te odvesti na jedan pravi dejt. Bez pritiska, samo nas dvoje za nasih prvih mjesec dana. Pa… što kažeš?",
   yesButton: "DA 💗",
   noButton: "Ne 🙈",
