@@ -4,18 +4,18 @@
 */
 window.DATE_APP_SETTINGS = {
   yourName: "Antonio",
-  herName: "IME_NJEZINO",
-  whatsappNumber: "385XXXXXXXXX", // Tvoj broj bez +, razmaka i početne nule, npr. 385912345678
+  herName: "Marija",
+  whatsappNumber: "385993834684", 
   eyebrow: "MALA PORUKA SAMO ZA TEBE",
   tagline: "SLUŽBENI POZIV NA DEJT",
   headlineFallback: "ljepotice",
-  headlineAfter: "…<br>imaš li planove sa mnom? 🌷",
-  intro: "Volio bih te odvesti na jedan pravi dejt. Bez pritiska, samo nas dvoje i lijepa uspomena. Pa… što kažeš?",
+  headlineAfter: "…<br>imaš li planove sa mnom? . Znam da nemam bas common sense i mozda ukus za zajebanciju, ali znam da svaki idući 19. u mjesecu zelim provest s tobom. ",
+  intro: "Volio bih te odvesti na jedan pravi dejt. Bez pritiska, samo nas dvoje za nasih prvih mjesec dana. Pa… što kažeš?",
   yesButton: "DA 💗",
   noButton: "Ne 🙈",
   initialReaction: "Odaberi mudro… 😉",
   noMessages: [
-    "Opa, to se nisam nadao… 😳",
+    "Opa, to se nisam nadao… 😳. Pitat cu te jos dvaput",
     "Drugi put? Imaš još jedan pokušaj. 😏",
     "E, sad već pričamo o nečemu! 💗"
   ],
@@ -36,13 +36,13 @@ window.DATE_APP_SETTINGS = {
   whatsappPlanLabel: "Plan",
   whatsappNoteLabel: "Posebna želja",
   whatsappClosing: "E, sad već pričamo o nečemu! 😉",
-  youtubeUrl: "", // Ovdje zalijepi puni YouTube link
+  youtubeUrl: "https://youtu.be/ZXUfRczaV30?si=ITSzttmhfD2QrIMm", 
   musicTitle: "Dok čitaš, pusti našu pjesmu",
-  musicIntro: "Ovdje je naša pjesma. Klikni Play ako se ne pokrene sama.",
-  musicEmpty: "🎶 Naša pjesma čeka da dodaš YouTube link u datoteku settings.js.",
+  musicIntro: "",
+  musicEmpty: "",
   outfitTitle: "Što obući?",
   outfitIntro: "Važno pitanje, pa evo mog stručnog mišljenja:",
-  outfitByline: "Antonio kaže:",
-  outfitText: "Obuci ono u čemu se osjećaš lijepo i ugodno. Bonus bodovi ako se nasmiješ kad me vidiš. 😉❤️",
+  outfitByline: "",
+  outfitText: "Obuci ono u čemu se ti osjećaš lijepo i ugodno. Meni si predivna svakako. Bonus bodovi ako se nasmiješ kad me vidiš. 😉❤️",
   closingText: "Veselim se našem dejtu. ❤️"
 };
