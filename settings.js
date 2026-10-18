@@ -29,7 +29,7 @@ window.DATE_APP_SETTINGS = {
   noteLabel: "Posebna želja (nije obavezno)",
   notePlaceholder: "Imaš neku želju? Napiši mi…",
   confirmButton: "Potvrđujem naš dejt 💌",
-  whatsappHint: "Otvorit će se WhatsApp s pripremljenom porukom. Poruka se šalje kad pritisneš „Pošalji”.",
+  whatsappHint: "",
   whatsappGreeting: "Prihvaćeno — imamo dejt! ❤️",
   whatsappDateLabel: "Datum",
   whatsappTimeLabel: "Vrijeme",
